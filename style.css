@@ -1,0 +1,119 @@
+.nav-item{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.section1{
+    background-image: url('Images/cycle.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+padding-top: 120px;
+height: 600px;
+}
+
+.content{
+    color: silver;
+    padding-left: 40px;
+   
+}
+.content h1{
+    font-size: 60px;
+}
+.about{
+    background-color: white;
+    color: black;
+}
+.column{
+    margin: 0 auto;
+  padding-bottom: 80px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+.row{
+padding-top: 30px;
+
+}
+.column h1{
+    font-weight: 600;
+font-size: 45px;
+}
+#big-para{
+    padding-top: 120px;
+}
+@media screen and (min-width: 480px) {
+    #big-para{
+        padding-top: 30px;
+    }
+  }
+  /*animations*/
+ 
+
+ /*back to top back-to-top*/
+ #button-scroll{
+    display: inline-block;
+    background-color:white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: white;
+    opacity: 0.7;
+    padding-bottom: 20px;
+  }
+
+  #button-scroll::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #333;
+ 
+  }
+  #button-scroll:hover {
+    cursor: pointer;
+    background-color:black;
+  
+  }
+  #button-scroll:active {
+    background-color: #555;
+  }
+  #button-scroll.show {
+    opacity: 0.3;
+    visibility: visible;
+  }
+  .img-background{
+    background-color: #333;
+    height: 500px;
+  }
+  .vehical-description{
+    text-align: center;
+  }
+  .vehical-description h1{
+    font-weight: 600;
+  }
+  .vehical-description p{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: gray;
+    font-weight: 600;
+  }
+  .vl {
+    border-left: 2px solid gray;
+    height: 450px;
+
+  }
+/* for the image at the top*/
+@media only screen and (max-width: 600px) {
+
+.section1{
+  background-image: none;
+  height: 450px;
+}
+}
