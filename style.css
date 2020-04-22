@@ -1,6 +1,4 @@
-body{
-  scroll-behavior: smooth;
-}
+
 p,span,div,button,input,table,th,tr,thead,td {font-family: "Roboto", sans-serif;}
 
 h1,h2,h3,h4,h5,h6{
@@ -15,7 +13,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #nav{
-      background-color:white;
+      background-color: #1B1B1B;
 }
 /* Logo */
 
@@ -197,4 +195,7 @@ form{
 footer{
   background-color: #1B1B1B;
   color: white;
+}
+html{
+  scroll-behavior: smooth;
 }
