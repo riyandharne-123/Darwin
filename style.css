@@ -75,14 +75,8 @@ padding-top: 30px;
     font-weight: 600;
 font-size: 45px;
 }
-#big-para{
-    padding-top: 120px;
-}
-@media screen and (min-width: 480px) {
-    #big-para{
-        padding-top: 30px;
-    }
-  }
+
+
   /*animations*/
 
 
@@ -153,34 +147,7 @@ font-size: 45px;
   height: 450px;
 }
 }
-.team{
-  text-align: center;
-}
-.team h2{
-  padding-top: 20px;
-  font-weight: 600;
-}
-.team p{
-  padding-left: 100px;
-  padding-right: 100px;
-  color: gray;
-  font-weight: 600;
-}
-.team .column{
-  margin: 0 auto;
-}
-.team .card{
-  border-radius: 25px;
-}
-.team .img{
-  border-radius: 25px;
-}
-.our_crew{
-  text-align: center;
-}
-hr.new1 {
-  border-top: 1px solid #1B1B1B;
-}
+
 .contact_us{
   background-color: whitesmoke;
   padding-right: 25%;
