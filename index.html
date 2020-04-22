@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Josefin+Sans|Raleway|Roboto&display=swap" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -18,38 +21,38 @@
     <title>Darwin Automotive</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top animated slideInDown">
-        <a class="navbar-brand" href="#">DARWIN AUTOMOTIVE</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top animated slideInDown" id="nav">
+        <h5 class="">DARWIN AUTOMOTIVE</h5>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto ">
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
-            </li>    
-            <li class="nav-item">
-              <a class="nav-link" href="#">OUR WORK</a>
-            </li>    
-            <li class="nav-item">
-           <a class="nav-link" href="#">TEAM</a>
+              <a class="nav-link" href="#" id="about">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
-            </li>        
-         
+              <a class="nav-link" href="#" id="ourwork"><i class="fa fa-th"></i> OUR WORK</a>
+            </li>
+            <li class="nav-item">
+           <a class="nav-link" href="#" id="team"><i class="fa fa-user"></i> TEAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="contact"><i class="fa fa-envelope"></i> CONTACT</a>
+            </li>
+
           </ul>
-  </div> 
+  </div>
       </nav>
       <!--section 1-->
       <div class="section1">
-<div class="content animated 
+<div class="content animated
 slideInRight ">
 <h1>Design</h1>
 <h1>Build</h1>
 <h1>Innovate</h1>
 
-<button class="btn btn-danger">Follow the Hype!</button>
+
 </div>
 
       </div>
@@ -59,7 +62,7 @@ slideInRight ">
       <a class="" id="button-scroll" onClick="topFunction()"></a>
     <div class="about">
 
-      <div class="container animated 
+      <div class="container animated
       slideInLeft">
 <div class="row ">
 <div class="column" >
@@ -76,7 +79,7 @@ laborum quaerat ex nesciunt eaque autem eveniet doloremque odio repellendus nost
 <div class="row">
   <div class="column">
   <h1>OUR MISSION</h1>
-  
+
   </div>
   <div class="column" style="color: gray; font-weight: 600;">
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, labore! <br>
@@ -89,7 +92,7 @@ laborum quaerat ex nesciunt eaque autem eveniet doloremque odio repellendus nost
   <div class="row">
     <div class="column">
     <h1 id="big-para">OUR CULTURE</h1>
-    
+
     </div>
     <div class="column" style="color: gray; font-weight: 600;">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, labore! <br>
@@ -130,12 +133,158 @@ laborum quaerat ex nesciunt eaque autem eveniet doloremque odio repellendus nost
 </div>
   </div>
    </div>
-  
+
 
 </div>
 <!--image in background-->
 <div class="img-background">
 
 </div>
+<!--team section-->
+<div class="team">
+<h2>TEAM</h2>
+<p>"Lorem ipsum dolor sit amet consectetur adipisicing elit.
+   Voluptatem perferendis eos eum laboriosam odio cumque, natus
+    provident placeat saepe sapiente consequatur
+ aliquid itaque recusandae nam at quaerat facere excepturi ab!"
+</p>
+<div class="container">
+<div class="row">
+<div class="column">
+  <div class="card" style="width:250px;">
+    <img class="card-img-top" src="Images/avatar.png" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card" style="width:250px;">
+    <img class="card-img-top" src="Images/avatar.png" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card" style="width:250px;">
+    <img class="card-img-top" src="Images/avatar.png" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+  <div class="card" style="width:250px;">
+    <img class="card-img-top" src="Images/avatar.png" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+<!--crew section starts here-->
+<hr class="new1">
+<div class="our_crew">
+<h2 style="font-weight: 600; padding-top: 10px;">OUR CREW</h2>
+<div class="container">
+  <div class="row">
+  <div class="column">
+    <div class="card" style="width:150px;">
+      <img class="card-img-top" src="Images/avatar.png" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">John Doe</h4>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card" style="width:150px;">
+      <img class="card-img-top" src="Images/avatar.png" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">John Doe</h4>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card" style="width:150px;">
+      <img class="card-img-top" src="Images/avatar.png" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">John Doe</h4>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card" style="width:150px;">
+      <img class="card-img-top" src="Images/avatar.png" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">John Doe</h4>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+  </div>
+</div>
+</div>
+<!--contact form-->
+<div class="contact_us">
+<h2 style="font-weight: 600;
+padding-top: 20px;">CONTACT US</h2>
+<h4>Lets get in touch.Send us a message:</h4>
+<div class="contact_info" style="text-align: left;
+padding-left: 5px; padding-top: 25px;">
+<h5>Bangalore,India</h5>
+<h5>Phone:+91 123456789</h5>
+<h5>Email: abc@gmail.com</h5>
+</div>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="form-group">
+    
+      <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
+    </div>
+    <div class="form-group">
+    
+      <input type="email" class="form-control" id="email" placeholder="Email*" name="email">
+    </div>
+      <div class="form-group">
+     
+      <input type="text" class="form-control" id="subject" placeholder="Subject*" name="subject">
+    </div>
+       <div class="form-group">
+    
+      <input type="text" class="form-control" id="message" placeholder="Message*" name="message">
+    </div>
+    <button type="submit" class="btn btn-success">SEND MESSAGE</button>
+  </form>
+</div>
+</div>
+<!--footer-->
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+<div class="footer-text" style="text-align: left; padding-left: 15%;">
+<h5>Legal</h5>
+<a href="#">Terms</a>
+<br>
+<a href="#">Privacy Policy</a>
+</div>
+<!--social icons-->
+
+<!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <a href="#"> Darwin Automotive</a>
+</div>
+<!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 </body>
 </html>
